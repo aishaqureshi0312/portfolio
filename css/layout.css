@@ -353,7 +353,6 @@ ul#nav li.current a {
   position: absolute;
   left: 0;
   top: 0;
-
   margin: 0;
   padding-right: 24px;
   background: #313131;
@@ -369,12 +368,12 @@ ul#nav li.current a {
   -webkit-animation: photoshop 2s ease;
 }
 .illustrator {
-  width: 75%;
+  width: 90%;
   -moz-animation: illustrator 2s ease;
   -webkit-animation: illustrator 2s ease;
 }
 .adobexd {
-  width: 90%;
+  width: 95%;
   -moz-animation: adobexd 2s ease;
   -webkit-animation: adobexd 2s ease;
 }
@@ -384,12 +383,12 @@ ul#nav li.current a {
   -webkit-animation: css 2s ease;
 }
 .html5 {
-  width: 80%;
+  width: 90%;
   -moz-animation: html5 2s ease;
   -webkit-animation: html5 2s ease;
 }
 .jquery {
-  width: 50%;
+  width: 80%;
   -moz-animation: jquery 2s ease;
   -webkit-animation: jquery 2s ease;
 }
@@ -407,7 +406,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 75%;
+    width: 90%;
   }
 }
 @-moz-keyframes adobexd {
@@ -415,7 +414,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 90%;
+    width: 95%;
   }
 }
 @-moz-keyframes css {
@@ -431,7 +430,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 80%;
+    width: 90%;
   }
 }
 @-moz-keyframes jquery {
@@ -439,7 +438,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 50%;
+    width: 80%;
   }
 }
 
@@ -456,7 +455,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 75%;
+    width: 90%;
   }
 }
 @-webkit-keyframes adobexd {
@@ -464,7 +463,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 90%;
+    width: 95%;
   }
 }
 @-webkit-keyframes css {
@@ -480,7 +479,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 80%;
+    width: 90%;
   }
 }
 @-webkit-keyframes jquery {
@@ -488,7 +487,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 50%;
+    width: 80%;
   }
 }
 
@@ -515,10 +514,10 @@ ul#nav li.current a {
   margin-bottom: 36px;
 }
 .portfolio-item .item-wrap {
+  min-height: 100px;
   background: #fff;
   overflow: hidden;
   position: relative;
-
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -575,6 +574,8 @@ ul#nav li.current a {
 }
 .portfolio-item .item-wrap img {
   vertical-align: bottom;
+  height: 130px;
+  width: 100%;
 }
 .portfolio-item .portfolio-item-meta {
   padding: 18px;
